@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Cheatsheets - Codinology</title>
+        <title>C - Cheatsheet</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="../css/style.css" rel="stylesheet">
+        <link href="../cheatsheet.css" rel="stylesheet">
         <script src="https://cdn.tailwindcss.com"></script>
-        <script src="../app.js"></script>
+        <script src="../cheatsheets.js"></script>
+        <script src="../../../app.js"></script>
         <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,10 +16,11 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body class="bg-yellow-50">
+        <!-- Navigation Bar -->
         <nav class="relative flex flex-wrap items-center justify-between px-2 py-3 bg-yellow-50 mb-3">
             <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
               <div class="w-full relative flex justify-between lg:w-auto  px-4 lg:static lg:block lg:justify-start">
-                <a class="logotext font-bold text-2xl leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-black" href="../index.html">
+                <a class="logotext font-bold text-2xl leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-black" href="../../../index.html">
                     Codinology
                 </a>
                 <button class="text-black cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" type="button" onclick="toggleNavbar('example-collapse-navbar')">
@@ -45,184 +47,145 @@
                 </ul>
               </div>
             </div>
-          </nav>        
-        <!-- Main Content -->
-        <section class="py-10 bg-yello-50 sm:py-16 lg:py-24">
+        </nav>  
+        <!-- Body Section -->
+        <section class="py-10 bg-yellow-50 sm:py-16 lg:py-24">
             <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <div class="max-w-2xl mx-auto text-center">
-                    <h2 class="text-3xl font-bold leading-tight text-gray-800 sm:text-4xl lg:text-5xl">Here You GO.</h2>
+                    <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Yo Buddy!</h2>
+                    <p class="max-w-lg mx-auto mt-4 text-base leading-relaxed text-gray-600">These Gonna Help You !.</p>
                 </div>
         
-                <div class="grid max-w-xl grid-cols-1 mx-auto mt-8 text-center lg:max-w-full sm:mt-12 lg:mt-20 lg:grid-cols-3 gap-x-6 xl:gap-x-12 gap-y-6">
+                <div class="grid grid-cols-1 gap-12 px-4 mt-12 sm:px-0 xl:mt-20 xl:grid-cols-4 sm:grid-cols-2">
+                    <div class="overflow-hidden bg-white rounded-md container-2 ">
+                        <div class="px-5 py-6">
+                            <h1 class="font-bold mb-10 text-2xl text-center">Introduction</h1>
+                            <div class="links">
+                                <a href="https://www.codewithharry.com/tutorial/c/">C Overview</a>
+                                <a href="https://www.codewithharry.com/tutorial/getting-started-with-c/">Getting Started with C</a>
+                                <a href="https://www.codewithharry.com/tutorial/basic-structure-and-syntax/">Basic Structure & Syntax</a>
+                                <a href="https://www.codewithharry.com/tutorial/c-comments/">C Comments</a>
+                                <a href="https://www.codewithharry.com/tutorial/c-variables/">C Variables</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overflow-hidden bg-white rounded-md container-2">
+                        <div class="px-5 py-6">
+                            <h1 class="font-bold mb-10 text-2xl text-center">Data Types, Operators, User I/O</h1>
+                            <div class="links">
+                                <a href="#">C Data Types & Constants</a>
+                                <a href="#">C Operators</a>
+                                <a href="#">Format Specifiers & Escape</a>
+                                <a href="#">Sequences</a>
+                                <a href="#">User Input/Output</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overflow-hidden bg-white rounded-md container-2">
+                        <div class="px-5 py-6">
+                            <h1 class="font-bold mb-10 text-2xl text-center">Conditonal Statements</h1>
+                            <div class="links">
+                                <a href="#">C if...else statements</a>
+                                <a href="#">Switch Case Statements</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overflow-hidden bg-white rounded-md container-2">
+                        <div class="px-5 py-6">
+                            <h1 class="font-bold mb-10 text-2xl text-center">Iteration Statements</h1>
+                            <div class="links">
+                                <a href="#">C Loops</a>
+                                <a href="#">while Loop</a>
+                                <a href="#">do-while Loop</a>
+                                <a href="#">for Loop</a>
+                                <a href="#">C Break/Continue</a>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overflow-hidden bg-white rounded-md container-2">
+                        <div class="px-5 py-6">
+                            <h1 class="font-bold mb-10 text-2xl text-center">Arrays</h1>
+                            <div class="links">
+                                <a href="#">Array Basics</a>
+                                <a href="#">Array Operations</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overflow-hidden bg-white rounded-md container-2">
+                        <div class="px-5 py-6">
+                            <h1 class="font-bold mb-10 text-2xl text-center">Strings</h1>
+                            <div class="links">
+                                <a href="#">String Basics</a>
+                                <a href="#">String Functions</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overflow-hidden bg-white rounded-md container-2">
+                        <div class="px-5 py-6">
+                            <h1 class="font-bold mb-10 text-2xl text-center">Functions</h1>
+                            <div class="links">
+                                <a href="#">Function Basics</a>
+                                <a href="#">Function Parameters</a>
+                                <a href="#">Functions Declaration</a>
+                                <a href="#">Recursive Functions</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overflow-hidden bg-white rounded-md container-2">
+                        <div class="px-5 py-6">
+                            <h1 class="font-bold mb-10 text-2xl text-center">Pointers</h1>
+                            <div class="links">
+                                <a href="#">C Pointers</a>
+                                <a href="#">Operations on Pointers</a>
+                                <a href="#">C VOID Pointer</a>
+                                <a href="#">C NULL Pointer</a>
+                                <a href="#">Dangling Pointer</a>
+                                <a href="#">Wild Pointer</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overflow-hidden bg-white rounded-md container-2">
+                        <div class="px-5 py-6">
+                            <h1 class="font-bold mb-10 text-2xl text-center">Memory Management</h1>
+                            <div class="links">
+                                <a href="#">C Static Variables</a>
+                                <a href="#">C Memory Layout</a>
+                                <a href="#">C Memory Allocation</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overflow-hidden bg-white rounded-md container-2">
+                        <div class="px-5 py-6">
+                            <h1 class="font-bold mb-10 text-2xl text-center">Structures & Unions</h1>
+                            <div class="links">
+                                <a href="#">C Structures</a>
+                                <a href="#">C Unions</a>
+                                <a href="#">C Typedef</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="overflow-hidden bg-white rounded-md container-2">
+                        <div class="px-5 py-6">
+                            <h1 class="font-bold mb-10 text-2xl text-center">File Handling</h1>
+                            <div class="links">
+                                <a href="#">File Handling Basics</a>
+                                <a href="#">Operations on Files</a>
+                                <a href="#">Files I/O</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+        
                     
-                    
-                    
-                </div>
-                <div class="grid max-w-xl grid-cols-1 mx-auto mt-8 text-center lg:max-w-full sm:mt-12 lg:mt-20 lg:grid-cols-3 gap-x-6 xl:gap-x-12 gap-y-6">
-                    <div class="overflow-hidden bg-white rounded-md shadow h-max">
-                        <div class="px-8 py-12 h-max">
-                            <div class="relative w-24 h-24 mx-auto">
-                                <a href="cheatsheets/C/c.html" target="_blank"><img class="relative object-cover w-24 h-24 mx-auto rounded-full"    src="https://cdn-icons-png.flaticon.com/512/3665/3665899.png" alt="" /></a>
-                                  
-                            </div>
-                            <p class="text-base font-semibold tex-tblack mt-9">C</p>
-                              
-                        </div>
-                    </div>
-                    <div class="overflow-hidden bg-white rounded-md shadow h-max">
-                        <div class="px-8 py-12 h-max">
-                            <div class="relative w-24 h-24 mx-auto">
-                                <a href="#" target="_blank"><img class="relative object-cover w-24 h-24 mx-auto rounded-full"    src="https://cdn-icons-png.flaticon.com/512/74/74897.png" alt="" /></a>
-                                  
-                            </div>
-                            <p class="text-base font-semibold tex-tblack mt-9">C++</p>
-                              
-                        </div>
-                    </div>
-                    <div class="overflow-hidden bg-white rounded-md shadow h-max">
-                        <div class="px-8 py-12 h-max">
-                            <div class="relative w-24 h-24 mx-auto">
-                                <a href="#" target="_blank"><img class="relative object-cover w-24 h-24 mx-auto rounded-full" src="https://cdn-icons-png.flaticon.com/512/3291/3291697.png" alt="" /></a>
-                            </div>
-                            <p class="text-base font-semibold tex-tblack mt-9">Java</p>
-                              
-                        </div>
-                    </div>
-                    <div class="overflow-hidden bg-white rounded-md shadow h-max">
-                        <div class="px-8 py-12 h-max">
-                            <div class="relative w-24 h-24 mx-auto">
-                                <a href="#" target="_blank"><img class="relative object-cover w-24 h-24 mx-auto rounded-full"    src="https://cdn-icons-png.flaticon.com/512/5968/5968286.png" alt="" /></a>
-                                  
-                            </div>
-                            <p class="text-base font-semibold tex-tblack mt-9">Python</p>
-                              
-                        </div>
-                    </div>
-                    <div class="overflow-hidden bg-white rounded-md shadow h-max">
-                        <div class="px-8 py-12 h-max">
-                            <div class="relative w-24 h-24 mx-auto">
-                                <a href="#" target="_blank"><img class="relative object-cover w-24 h-24 mx-auto rounded-full"    src="https://cdn-icons-png.flaticon.com/512/1051/1051328.png" alt="" /></a>
-                                  
-                            </div>
-                            <p class="text-base font-semibold tex-tblack mt-9">HTML</p>
-                              
-                        </div>
-                    </div>
-                    <div class="overflow-hidden bg-white rounded-md shadow h-max">
-                        <div class="px-8 py-12 h-max">
-                            <div class="relative w-24 h-24 mx-auto">
-                                <a href="#" target="_blank"><img class="relative object-cover w-24 h-24 mx-auto rounded-full"    src="https://cdn-icons-png.flaticon.com/512/732/732007.png" alt="" /></a>
-                                  
-                            </div>
-                            <p class="text-base font-semibold tex-tblack mt-9">CSS</p>
-                              
-                        </div>
-                    </div>
-                    <div class="overflow-hidden bg-white rounded-md shadow h-max">
-                        <div class="px-8 py-12 h-max">
-                            <div class="relative w-24 h-24 mx-auto">
-                                <a href="#" target="_blank"><img class="relative object-cover w-24 h-24 mx-auto rounded-full"    src="https://cdn-icons-png.flaticon.com/512/1/1492.png" alt="" /></a>
-                                  
-                            </div>
-                            <p class="text-base font-semibold tex-tblack mt-9">Javascript</p>
-                              
-                        </div>
-                    </div>
-                    <div class="overflow-hidden bg-white rounded-md shadow h-max">
-                        <div class="px-8 py-12 h-max">
-                            <div class="relative w-24 h-24 mx-auto">
-                                <a href="#" target="_blank"><img class="relative object-cover w-24 h-24 mx-auto rounded-full"    src="https://cdn-icons-png.flaticon.com/512/1/1975.png" alt="" /></a>
-                                  
-                            </div>
-                            <p class="text-base font-semibold tex-tblack mt-9">PHP</p>
-                              
-                        </div>
-                    </div>
-                    <div class="overflow-hidden bg-white rounded-md shadow h-max">
-                        <div class="px-8 py-12 h-max">
-                            <div class="relative w-24 h-24 mx-auto">
-                                <a href="#" target="_blank"><img class="relative object-cover w-24 h-24 mx-auto rounded-full"    src="https://cdn-icons-png.flaticon.com/512/5968/5968254.png" alt="" /></a>
-                                  
-                            </div>
-                            <p class="text-base font-semibold tex-tblack mt-9">mySQL</p>
-                              
-                        </div>
-                    </div>
-                    <div class="overflow-hidden bg-white rounded-md shadow h-max">
-                        <div class="px-8 py-12 h-max">
-                            <div class="relative w-24 h-24 mx-auto">
-                                <a href="#" target="_blank"><img class="relative object-cover w-24 h-24 mx-auto rounded-full"    src="https://t3.ftcdn.net/jpg/04/95/82/72/360_F_495827259_kqYqKFSH8c7LWJqHvC9NWzVqfgcLxTjx.jpg" alt="" /></a>
-                                  
-                            </div>
-                            <p class="text-base font-semibold tex-tblack mt-9">jQuery</p>
-                              
-                        </div>
-                    </div>
-                    <div class="overflow-hidden bg-white rounded-md shadow h-max">
-                        <div class="px-8 py-12 h-max">
-                            <div class="relative w-24 h-24 mx-auto">
-                                <a href="#" target="_blank"><img class="relative object-cover w-24 h-24 mx-auto rounded-full"    src="https://cdn-icons-png.flaticon.com/512/4494/4494683.png" alt="" /></a>
-                                  
-                            </div>
-                            <p class="text-base font-semibold tex-tblack mt-9">GIT</p>
-                              
-                        </div>
-                    </div>
-                    <div class="overflow-hidden bg-white rounded-md shadow h-max">
-                        <div class="px-8 py-12 h-max">
-                            <div class="relative w-24 h-24 mx-auto">
-                                <a href="#" target="_blank"><img class="relative object-cover w-24 h-24 mx-auto rounded-full"    src="https://cdn-icons-png.flaticon.com/512/13/13702.png" alt="" /></a>
-                                  
-                            </div>
-                            <p class="text-base font-semibold tex-tblack mt-9">Linux</p>
-                              
-                        </div>
-                    </div>
-                    <div class="overflow-hidden bg-white rounded-md shadow h-max">
-                        <div class="px-8 py-12 h-max">
-                            <div class="relative w-24 h-24 mx-auto">
-                                <a href="#" target="_blank"><img class="relative object-cover w-24 h-24 mx-auto rounded-full"    src="https://cdn-icons-png.flaticon.com/512/1550/1550935.png" alt="" /></a>
-                                  
-                            </div>
-                            <p class="text-base font-semibold tex-tblack mt-9">ReactJS</p>
-                              
-                        </div>
-                    </div>
-                    <div class="overflow-hidden bg-white rounded-md shadow h-max">
-                        <div class="px-8 py-12 h-max">
-                            <div class="relative w-24 h-24 mx-auto">
-                                <a href="#" target="_blank"><img class="relative object-cover w-24 h-24 mx-auto rounded-full"    src="https://cdn-icons-png.flaticon.com/512/5968/5968261.png" alt="" /></a>
-                                  
-                            </div>
-                            <p class="text-base font-semibold tex-tblack mt-9">NodeJS</p>
-                              
-                        </div>
-                    </div>
-                    <div class="overflow-hidden bg-white rounded-md shadow h-max">
-                        <div class="px-8 py-12 h-max">
-                            <div class="relative w-24 h-24 mx-auto">
-                                <a href="../index.html" target="_blank">
-                                <a href="#" target="_blank"><img class="relative object-cover w-24 h-24 mx-auto rounded-full"    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT14U4J0XYAmbVs9BCCAQYvdTsGBGTGfxuPSxQ84K7jON-vBCfthFibip6wd_JF5Jsv5ow&usqp=CAU" alt="" />
-                                </a>
-                                  
-                            </div>
-                            <p class="text-base font-semibold tex-tblack mt-9">Express</p>
-                              
-                        </div>
-                    </div>
-                    <div class="overflow-hidden bg-white rounded-md shadow h-max">
-                        <div class="px-8 py-12 h-max">
-                            <div class="relative w-24 h-24 mx-auto">
-                                <a href="#" target="_blank"><img class="relative object-cover w-24 h-24 mx-auto rounded-full"    src="https://cdn-icons-png.flaticon.com/128/474/474950.png" alt="" /></a>
-                                  
-                            </div>
-                            <p class="text-base font-semibold tex-tblack mt-9">Ruby</p>
-                              
-                        </div>
-                    </div>
-                    
-                </div>
-                
             </div>
         </section>
         

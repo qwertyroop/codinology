@@ -1,0 +1,35 @@
+a.logotext{
+    font-family: 'Space Mono', monospace;
+
+}
+
+.content{
+    height: 800px;
+    width: 300px;
+    background-color: white;
+}
+
+.container-2{
+    box-shadow: 5px 5px 1px 10px black;
+    height: auto;
+    
+}
+
+.container-2 a{
+  
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.container-2 a:hover{
+    background-color: black;
+    color: #FFFBEB;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
