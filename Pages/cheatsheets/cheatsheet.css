@@ -16,6 +16,9 @@ a.logotext{
     
 }
 
+board-card{
+  overflow-y: scroll;
+}
 
 ::-webkit-scrollbar {
     width: 5px;
